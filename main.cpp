@@ -25,6 +25,7 @@ int main()
 	\n16) \
 	\n17) \
 	\n18) \
+	\n19) \
 	\n";
 	cout << "Please pick an option: ";
 	cin >> choice;
@@ -55,13 +56,22 @@ int main()
 			break;
 		case 11:  // LPham
 			break;
-		case 12: break;
-		case 13: break;
-		case 14: break;
-		case 15: break;
-		case 16: break;
-		case 17: break;
-		case 18: break;
+		case 12:  // NLui
+			break;
+		case 13:  // JSanrindo
+			break;
+		case 14:  // BAmaro
+			break;
+		case 15:  // WCovington
+			break;
+		case 16:  // LWalcher
+			break;
+		case 17:  // SChacon
+			break;
+		case 18:  // TLopez
+			break;
+		case 19:  // MAminy
+			break;
 	}
 
 	return 0;
