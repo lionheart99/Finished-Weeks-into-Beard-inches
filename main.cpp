@@ -11,7 +11,7 @@ int main()
 	\n2) \
 	\n3) \
 	\n4) \
-	\n5) \
+	cout << "5) Find the area of a triangle.\
 	\n6) \
 	\n7) \
 	\n8) \
@@ -43,6 +43,7 @@ int main()
 		case 4:  // ALee
 			break;
 		case 5:  // GSrinivasan
+                           area_of_a_triangle();
 			break;
 		case 6:  // AAbuelhassan
 			break;
