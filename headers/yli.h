@@ -20,7 +20,8 @@ void spaces_in_file() {
         num_spaces++;
       }
     }
-  } else {
+  }
+ else {
     cout << "Error. File can not be opened" << endl;
   }
   file.close();
