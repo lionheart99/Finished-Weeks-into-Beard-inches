@@ -7,7 +7,7 @@ namespace std;
 
 void area_of_a_triangle()
 {
-	double intial_area,final_area,base,height;
+	double initial_area,final_area,base,height;
 
 	cout << "Enter the base of the triangle ";
 	cin >> base;
