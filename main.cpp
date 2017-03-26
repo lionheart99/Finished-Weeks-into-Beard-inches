@@ -1,7 +1,16 @@
+#include "headers/alee.h"
 #include "headers/bfrick.h"
 #include <iostream>
 
 using namespace std;
+
+void wiffles_to_inches()
+{
+   float wiffles;
+   cout << "Wiffles: ";
+   cin >> wiffles;
+   cout << "Inches: " << (wiffles * 4/3) << '\n';
+}
 
 int main()
 {
@@ -41,6 +50,7 @@ int main()
 		case 3:  // YLi
 			break;
 		case 4:  // ALee
+			wiffles_to_inches();
 			break;
 		case 5:  // GSrinivasan
 			break;
