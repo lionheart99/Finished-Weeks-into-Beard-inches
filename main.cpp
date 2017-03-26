@@ -11,7 +11,7 @@ int main()
 	\n2) \
 	\n3) \
 	\n4) \
-	cout << "5) Find the area of a triangle.\
+        \n5) Find the area of a triangle.\
 	\n6) \
 	\n7) \
 	\n8) \
