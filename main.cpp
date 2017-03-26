@@ -1,4 +1,5 @@
 #include "headers/bfrick.h"
+#include "headers/lpham.h"
 #include <iostream>
 
 using namespace std;
@@ -17,7 +18,7 @@ int main()
 	\n8) \
 	\n9) \
 	\n10) \
-	\n11) \
+	\n11) Convert Weeks into Beard-inches.\
 	\n12) \
 	\n13) \
 	\n14) \
@@ -55,6 +56,7 @@ int main()
 		case 10:  // THasani
 			break;
 		case 11:  // LPham
+			weeks_to_beard_inches()
 			break;
 		case 12:  // NLui
 			break;
