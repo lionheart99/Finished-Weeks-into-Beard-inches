@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void weeks_to_bread_inches()
+void weeks_to_beard_inches()
 {
 	double count;
 	cout << "How many weeks> ";
