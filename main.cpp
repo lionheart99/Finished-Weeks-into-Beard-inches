@@ -14,7 +14,7 @@ int main()
 	\n4) \
 	\n5) \
 	\n6) \
-	\n7) \
+	\n7) Print a Random Color.\
 	\n8) \
 	\n9) \
 	\n10) \
