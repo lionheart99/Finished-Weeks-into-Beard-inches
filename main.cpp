@@ -1,4 +1,5 @@
 #include "headers/bfrick.h"
+#include "headers/lschauer.h"
 #include <iostream>
 
 using namespace std;
@@ -47,6 +48,7 @@ int main()
 		case 6:  // AAbuelhassan
 			break;
 		case 7:  // LSchauer
+			printRandColor();
 			break;
 		case 8:  // KGriffin
 			break;
