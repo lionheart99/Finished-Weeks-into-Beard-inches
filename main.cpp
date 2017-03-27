@@ -1,6 +1,5 @@
 #include "headers/bfrick.h"
 
-
 #include "headers/yli.h"
 
 #include "headers/lschauer.h"
@@ -11,9 +10,10 @@
 
 using namespace std;
 
-int main() {
-  short unsigned int choice;
-  cout << "0) Convert examples to kilo-examples.\
+int main()
+{
+	short unsigned int choice;
+	cout << "0) Convert examples to kilo-examples.\
 	\n1) \
 	\n2) \
 	\n3) Count the number of spaces in a file.\
@@ -34,8 +34,8 @@ int main() {
 	\n18) \
 	\n19) \
 	\n";
-  cout << "Please pick an option: ";
-  cin >> choice;
+	cout << "Please pick an option: ";
+	cin >> choice;
 
 	switch(choice) {
 		case 0:  // BFrick
@@ -46,12 +46,12 @@ int main() {
 		case 2:  // CNavarro
 			break;
 		case 3:  // YLi
-      spaces_in_file();
+			spaces_in_file();
 			break;
 		case 4:  // ALee
 			break;
 		case 5:  // GSrinivasan
-      area_of_a_triangle();
+			area_of_a_triangle();
 			break;
 		case 6:  // AAbuelhassan
 			break;
@@ -84,5 +84,5 @@ int main() {
 			break;
 	}
 
-  return 0;
+	return 0;
 }
