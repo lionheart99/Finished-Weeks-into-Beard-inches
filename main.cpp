@@ -2,6 +2,7 @@
 #include "headers/bfrick.h"
 #include "headers/nlui.h"
 #include "headers/lschauer.h"
+#include "headers/isaghatchi.h"
 #include <iostream>
 
 using namespace std;
@@ -18,7 +19,7 @@ int main()
 	\n6) \
 	\n7) Print a Random Color.\
 	\n8) \
-	\n9) \
+	\n9) Convert jiffys to microcenturies.\
 	\n10) \
 	\n11) \
 	\n12) Convert pounds to poods. \
@@ -56,6 +57,7 @@ int main()
 		case 8:  // KGriffin
 			break;
 		case 9:  // ISaghatchi
+			jiffy_to_microcentury();
 			break;
 		case 10:  // THasani
 			break;
