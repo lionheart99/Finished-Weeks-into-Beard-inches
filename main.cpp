@@ -1,11 +1,7 @@
-#include "headers/bfrick.h"
-
-#include "headers/yli.h"
-
-#include "headers/lschauer.h"
-
 #include "headers/Gsrinivasan.h"
-
+#include "headers/bfrick.h"
+#include "headers/yli.h"
+#include "headers/lschauer.h"
 #include <iostream>
 
 using namespace std;
@@ -18,7 +14,7 @@ int main()
 	\n2) \
 	\n3) Count the number of spaces in a file.\
 	\n4) \
-  \n5) Find the area of a triangle.\
+	\n5) Find the area of a triangle.\
 	\n6) \
 	\n7) Print a Random Color.\
 	\n8) \
