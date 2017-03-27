@@ -1,3 +1,7 @@
+#include<iostream>
+
+using namespace std;
+
 void wiffles_to_inches()
 {
 	float wiffles;
