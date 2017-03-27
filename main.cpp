@@ -1,6 +1,10 @@
 #include "headers/Gsrinivasan.h"
 #include "headers/bfrick.h"
+
+#include "headers/yli.h"
+
 #include "headers/nlui.h"
+
 #include "headers/lschauer.h"
 #include "headers/isaghatchi.h"
 #include <iostream>
@@ -13,7 +17,7 @@ int main()
 	cout << "0) Convert examples to kilo-examples.\
 	\n1) \
 	\n2) \
-	\n3) \
+	\n3) Count the number of spaces in a file.\
 	\n4) \
 	\n5) Find the area of a triangle.\
 	\n6) \
@@ -43,6 +47,7 @@ int main()
 		case 2:  // CNavarro
 			break;
 		case 3:  // YLi
+			spaces_in_file();
 			break;
 		case 4:  // ALee
 			break;
