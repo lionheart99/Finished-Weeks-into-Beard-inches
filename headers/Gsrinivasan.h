@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include<cmath>
-namespace std;
+using namespace std;
 
 void area_of_a_triangle()
 {
