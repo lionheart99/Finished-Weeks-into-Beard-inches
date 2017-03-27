@@ -10,6 +10,6 @@ void pounds_to_poods() {
   cin >> userInputPounds;
   cin.clear();
   cin.ignore(100000000000000, '\n');
-  cout << userInputPounds << " in pounds is " userInputPounds / 36.11
+  cout << userInputPounds << " in pounds is " << userInputPounds / 36.11
        << " poods." << endl;
 }
