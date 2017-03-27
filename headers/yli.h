@@ -1,8 +1,8 @@
 // Name: Yu(Jack) Li
 // Function: Count the number of spaces in an file
 
-#include <fstream>
 #include <iostream>
+#include <fstream>
 #include <string>
 
 void spaces_in_file() {
@@ -14,9 +14,11 @@ void spaces_in_file() {
   cout << "Enter the name of a file(Example: hello.txt): ";
   cin >> filename;
   file.open(filename);
-  if (filename) {
-    while (file >> character) {
-      if (character = " ") {
+
+  if (file) {
+    while (!file.eof()) {
+      file.get(character);
+      if (character == ' ') {
         num_spaces++;
       }
     }
@@ -24,7 +26,7 @@ void spaces_in_file() {
  else {
     cout << "Error. File can not be opened" << endl;
   }
-  file.close();
 
+  file.close();
   cout << "Number of spaces in file: " << num_spaces << "." << endl;
 }

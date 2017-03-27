@@ -9,7 +9,7 @@ int main() {
   cout << "0) Convert examples to kilo-examples.\
 	\n1) \
 	\n2) \
-	\n3) \
+	\n3) Count the number of spaces in a file.\
 	\n4) \
 	\n5) \
 	\n6) \
