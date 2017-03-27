@@ -1,12 +1,10 @@
 #include "headers/Gsrinivasan.h"
 #include "headers/bfrick.h"
-
-#include "headers/yli.h"
-
-#include "headers/nlui.h"
-
 #include "headers/lschauer.h"
 #include "headers/isaghatchi.h"
+#include "headers/cnavarro.h"
+#include "headers/nlui.h"
+#include "headers/yli.h"
 #include <iostream>
 
 using namespace std;
@@ -16,7 +14,7 @@ int main()
 	short unsigned int choice;
 	cout << "0) Convert examples to kilo-examples.\
 	\n1) \
-	\n2) \
+	\n2) Find the area of a circle.\
 	\n3) Count the number of spaces in a file.\
 	\n4) \
 	\n5) Find the area of a triangle.\
@@ -45,6 +43,7 @@ int main()
 		case 1:  // LMendoza
 			break;
 		case 2:  // CNavarro
+			Area_Of_A_Circle();
 			break;
 		case 3:  // YLi
 			spaces_in_file();
