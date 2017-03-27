@@ -1,4 +1,5 @@
 #include "headers/bfrick.h"
+#include "headers/isaghatchi.h"
 #include <iostream>
 
 using namespace std;
@@ -15,7 +16,7 @@ int main()
 	\n6) \
 	\n7) \
 	\n8) \
-	\n9) \
+	\n9) Convert jiffys to microcenturies.\
 	\n10) \
 	\n11) \
 	\n12) \
@@ -51,6 +52,7 @@ int main()
 		case 8:  // KGriffin
 			break;
 		case 9:  // ISaghatchi
+			jiffy_to_microcentury();
 			break;
 		case 10:  // THasani
 			break;
