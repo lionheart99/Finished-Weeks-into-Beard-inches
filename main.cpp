@@ -1,5 +1,6 @@
 #include "headers/Gsrinivasan.h"
 #include "headers/bfrick.h"
+#include "headers/nlui.h"
 #include "headers/lschauer.h"
 #include <iostream>
 
@@ -20,7 +21,7 @@ int main()
 	\n9) \
 	\n10) \
 	\n11) \
-	\n12) \
+	\n12) Convert pounds to poods. \
 	\n13) \
 	\n14) \
 	\n15) \
@@ -61,6 +62,7 @@ int main()
 		case 11:  // LPham
 			break;
 		case 12:  // NLui
+			pounds_to_poods();
 			break;
 		case 13:  // JSanrindo
 			break;
