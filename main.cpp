@@ -9,7 +9,7 @@ int main()
 	short unsigned int choice;
 	cout << "0) Convert examples to kilo-examples.\
 	\n1) \
-         << "2) Find the area of a circle.\
+    \n2) Find the area of a circle.\
 	\n3) \
 	\n4) \
 	\n5) \
