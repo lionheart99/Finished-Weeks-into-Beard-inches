@@ -56,7 +56,7 @@ int main()
 		case 10:  // THasani
 			break;
 		case 11:  // LPham
-			weeks_to_beard_inches()
+			weeks_to_beard_inches();
 			break;
 		case 12:  // NLui
 			break;
