@@ -1,7 +1,12 @@
 #include "headers/Gsrinivasan.h"
 #include "headers/bfrick.h"
+
 #include "headers/yli.h"
+
+#include "headers/nlui.h"
+
 #include "headers/lschauer.h"
+#include "headers/isaghatchi.h"
 #include <iostream>
 
 using namespace std;
@@ -18,10 +23,10 @@ int main()
 	\n6) \
 	\n7) Print a Random Color.\
 	\n8) \
-	\n9) \
+	\n9) Convert jiffys to microcenturies.\
 	\n10) \
 	\n11) \
-	\n12) \
+	\n12) Convert pounds to poods. \
 	\n13) \
 	\n14) \
 	\n15) \
@@ -57,12 +62,14 @@ int main()
 		case 8:  // KGriffin
 			break;
 		case 9:  // ISaghatchi
+			jiffy_to_microcentury();
 			break;
 		case 10:  // THasani
 			break;
 		case 11:  // LPham
 			break;
 		case 12:  // NLui
+			pounds_to_poods();
 			break;
 		case 13:  // JSanrindo
 			break;
