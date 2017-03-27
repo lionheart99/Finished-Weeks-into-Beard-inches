@@ -4,14 +4,6 @@
 
 using namespace std;
 
-void wiffles_to_inches()
-{
-   float wiffles;
-   cout << "Wiffles: ";
-   cin >> wiffles;
-   cout << "Inches: " << (wiffles * 4/3) << '\n';
-}
-
 int main()
 {
 	short unsigned int choice;
@@ -19,7 +11,7 @@ int main()
 	\n1) \
 	\n2) \
 	\n3) \
-	\n4) \
+	\n4) Convert Wiffles to Inches. \
 	\n5) \
 	\n6) \
 	\n7) \
