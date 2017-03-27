@@ -1,5 +1,9 @@
 #include "headers/bfrick.h"
+
 #include "headers/lschauer.h"
+
+#include "headers/Gsrinivasan.h"
+
 #include <iostream>
 
 using namespace std;
@@ -12,7 +16,7 @@ int main()
 	\n2) \
 	\n3) \
 	\n4) \
-	\n5) \
+        \n5) Find the area of a triangle.\
 	\n6) \
 	\n7) Print a Random Color.\
 	\n8) \
@@ -44,6 +48,7 @@ int main()
 		case 4:  // ALee
 			break;
 		case 5:  // GSrinivasan
+                           area_of_a_triangle();
 			break;
 		case 6:  // AAbuelhassan
 			break;
