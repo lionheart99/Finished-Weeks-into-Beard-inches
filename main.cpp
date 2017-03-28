@@ -46,7 +46,7 @@ int main()
 		case 4:  // ALee
 			break;
 		case 5:  // GSrinivasan
-      area_of_a_triangle();
+      			area_of_a_triangle();
 			break;
 		case 6:  // AAbuelhassan
 			break;
