@@ -1,8 +1,11 @@
 #include "headers/alee.h"
 #include "headers/Gsrinivasan.h"
 #include "headers/bfrick.h"
-#include "headers/nlui.h"
 #include "headers/lschauer.h"
+#include "headers/isaghatchi.h"
+#include "headers/cnavarro.h"
+#include "headers/nlui.h"
+#include "headers/yli.h"
 #include <iostream>
 
 using namespace std;
@@ -15,11 +18,14 @@ int main()
 	\n2) \
 	\n3) \
 	\n4) Convert Wiffles to Inches. \
+	\n2) Find the area of a circle.\
+	\n3) Count the number of spaces in a file.\
+	\n4) \
 	\n5) Find the area of a triangle.\
 	\n6) \
 	\n7) Print a Random Color.\
 	\n8) \
-	\n9) \
+	\n9) Convert jiffys to microcenturies.\
 	\n10) \
 	\n11) \
 	\n12) Convert pounds to poods. \
@@ -41,8 +47,10 @@ int main()
 		case 1:  // LMendoza
 			break;
 		case 2:  // CNavarro
+			Area_Of_A_Circle();
 			break;
 		case 3:  // YLi
+			spaces_in_file();
 			break;
 		case 4:  // ALee
 			wiffles_to_inches();
@@ -58,6 +66,7 @@ int main()
 		case 8:  // KGriffin
 			break;
 		case 9:  // ISaghatchi
+			jiffy_to_microcentury();
 			break;
 		case 10:  // THasani
 			break;
