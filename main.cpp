@@ -1,3 +1,4 @@
+#include "headers/alee.h"
 #include "headers/Gsrinivasan.h"
 #include "headers/bfrick.h"
 #include "headers/lschauer.h"
@@ -14,6 +15,9 @@ int main()
 	short unsigned int choice;
 	cout << "0) Convert examples to kilo-examples.\
 	\n1) \
+	\n2) \
+	\n3) \
+	\n4) Convert Wiffles to Inches. \
 	\n2) Find the area of a circle.\
 	\n3) Count the number of spaces in a file.\
 	\n4) \
@@ -49,6 +53,7 @@ int main()
 			spaces_in_file();
 			break;
 		case 4:  // ALee
+			wiffles_to_inches();
 			break;
 		case 5:  // GSrinivasan
 			area_of_a_triangle();
